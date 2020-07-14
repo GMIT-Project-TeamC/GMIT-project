@@ -9,10 +9,6 @@ API_KEY = os.environ['API_KEY']
 NUM_OF_DAYS = 300
 
 
-def cube(x):
-    return x**3
-
-
 def _form_arg_dic(stock_symbol):
     return {
         'function': 'TIME_SERIES_DAILY_ADJUSTED',
