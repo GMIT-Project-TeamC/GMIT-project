@@ -2,8 +2,6 @@ import os
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib
-from bs4 import BeautifulSoup
 
 API_KEY = os.environ['API_KEY']
 NUM_OF_DAYS = 300
